@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  padding-bottom: 10px;
+  margin: 0px;
+  height: 40%;
+  color: #CF9FFF;
+  text-align: center;
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* #main {
+  height: 300px;
+} */
+#first-half {
+  padding-top: 20px;
+  height: 33%;
+  width: 80%;
+  display: flex;
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px bisque;
+  position: relative;
+  left: 10%;
+}
+#left {
+  width: 20%;
+  height: 100%;
+}
+#middle {
+  width: 80%;
+  height: 100%;
+  text-align: center;
+}
+#right {
+  width: 20%;
+  height: 100%;
+}
+#input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  outline: none;
+}
+input::placeholder {
+  color: grey;
+}
+
+#button {
+  display: none;
+}
+#button:hover {
+  border-left: solid white 2px;
+}
+#second-half {
+  justify-content: center;
+  height: 33%;
+  width: 80%;
+  display: flex;
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px bisque;
+  position: relative;
+  left: 10%;
+}
+#third-half {
+  justify-content: center;
+  height: 50%;
+  width: 80%;
+  display: flex;
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px bisque;
+  position: relative;
+  left: 10%;
+}
+.Liste {
+  list-style-type: none;
+}
+.delete-button {
+  color: red;
+}
+.input-check {
+  background-color: red;
+}
+.countAfaire {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.filters {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+}
+.filters li {
+  width: 100px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: solid white;
+  outline: none;
+  text-align: center;
+}
+.filters li a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.clear-completed {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: solid white;
+  outline: none;
+  text-align: center;
+  background-color: transparent;
+}
+#essai {
+  display: flex;
+  flex-direction: column;
+}
+.texte-tache {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.delete-button {
+  border: none;
+  color: black;
+  font-size: 20px;
+  background-color: transparent;
+}
